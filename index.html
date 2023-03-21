@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
     <link rel="stylesheet" type="text/css" href="./CSS/all.min.css">
     <style>@import "CSS/style2.css";</style>
@@ -22,18 +23,24 @@
         
     </header>    
     <main>
-        <div class="main">
-            <video autoplay loop muted plays-inline src="rrp music vid2.mp4" class="video" style="max-width:100%;height:auto;"></video>
-             <nav>
-                 <img src="logo.png" alt="logo" class="logo">
-                 <ul>
-                     <li><a href="https://www.facebook.com/republikaroleplayph">Facebook Page</a></li>
-                     <li><a href="https://www.facebook.com/groups/863439034399694/?ref=share">Facebook Group</a></li>
-                     <li><a href="">Forum</a></li>
-                 </ul>
-             </nav>
+        <div class="main" id="myMain">
+            <video autoplay loop muted plays-inline src="rrp music vid2.mp4" class="video"></video>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <img src="logo.png" alt="logo" class="logo">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Feedback</a></li>
+                </ul>
+              </nav>
              <div class="content">
-                 <h1 class="left" style="font-size:10vw">Republika <br> Roleplay</h1>
+                 <h1 class="left">Republika Roleplay</h1>
                  <p class="left">Improve your social skills, and perform tasks that you couldn't in the actual world.</p>
                  <div class="links left">
                      <a href="https://discord.gg/WBvtmufkC2" class="free-img">Join Us Now!</a>
@@ -118,35 +125,35 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="rrpbanner.png" class="d-block h-70" alt="...">
+                    <img src="rrpbanner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-white mb-0">First slide label</h5>
                         <p class="text-white mb-0">Some representative placeholder content for the first slide.</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="rrpbanner.png" class="d-block h-70" alt="...">
+                    <img src="rrpbanner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-white mb-0">Second slide label</h5>
                         <p class="text-white mb-0">Some representative placeholder content for the first slide.</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="rrpbanner.png" class="d-block h-70" alt="...">
+                    <img src="rrpbanner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-white mb-0">Third slide label</h5>
                         <p class="text-white mb-0">Some representative placeholder content for the first slide.</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="rrpbanner.png"d-block h-70" alt="...">
+                    <img src="rrpbanner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-white mb-0">Fourth slide label</h5>
                         <p class="text-white mb-0">Some representative placeholder content for the first slide.</p>
                       </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="rrpbanner.png" class="d-block h-70" alt="...">
+                    <img src="rrpbanner.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="text-white mb-0">Fifth slide label</h5>
                         <p class="text-white mb-0">Some representative placeholder content for the first slide.</p>
@@ -165,7 +172,7 @@
         <!--Footer-->
         <footer>
             <div class="footer-bottom bg-dark">
-                <p>copyright &copy;2023 Republika Roleplay. designed by <span>Developer Team</span></p>
+                <p>copyright &copy;2023 Republika Roleplay. designed by <span>Development Team</span></p>
             </div>
         </footer>
         <button onclick="topFunction()" class="fa fa-angle-up" id="myBtn" title="Go to top"></button>
